@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
 
 import questions from '../data/questions.json';
-import QuestionCard from '../components/QuestionCard';
+import QuestionCard from '../components/QuestionCard'
 import { useNavigate } from 'react-router-dom';
 import ProgressBar from '../components/ProgressBar';
 import {
