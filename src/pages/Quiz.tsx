@@ -14,10 +14,10 @@ import {
 
 export default function Quiz() {
   const [currentIndex, setCurrentIndex] = useRecoilState(currentQuestionIndexAtom);
-  const [score, setScore] = useRecoilState(scoreAtom);
+  const [_score, setScore] = useRecoilState(scoreAtom);
   const [selected, setSelected] = useState<number | null>(null);
   const navigate = useNavigate();
-  const [answers, setAnswers] = useRecoilState(selectedAnswersAtom);
+  const [_answers, setAnswers] = useRecoilState(selectedAnswersAtom);
 
   const currentQuestion = questions[currentIndex];
 

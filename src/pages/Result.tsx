@@ -38,7 +38,7 @@ export default function Result() {
 <div className="w-full text-left space-y-4">
   {questions.map((q, i) => {
     const userChoice = selectedAnswers[i];
-    const isCorrect = userChoice === q.answer;
+    const _isCorrect = userChoice === q.answer;
     return (
       <div key={q.id} className="border p-3 rounded">
         <p className="font-semibold">{i + 1}. {q.question}</p>
