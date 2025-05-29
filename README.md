@@ -1,3 +1,39 @@
+# DevQuiz 🧠
+
+프론트엔드 개발자를 위한 기술 퀴즈 플랫폼입니다.
+
+## 🔗 배포 주소
+👉 [https://devquizcomplete.vercel.app](https://devquizcomplete.vercel.app)
+
+## 💡 주요 기능
+- HTML, CSS, JavaScript, React 등 퀴즈 문제 제공
+- 정답 선택 시 즉시 피드백
+- 점수 계산 및 오답 복습 기능
+- 반응형 UI, Tailwind CSS 적용
+- 상태 관리 (Recoil), 폼 처리 (React Hook Form)
+
+## 🛠️ 사용 기술 스택
+- React + TypeScript
+- Tailwind CSS
+- Recoil
+- React Hook Form
+- Jest, React Testing Library
+- Vite
+- Vercel (배포)
+
+## 📂 프로젝트 구조
+src/
+┣ pages/ ← Home, Quiz, Result
+┣ components/ ← QuestionCard, ProgressBar
+┣ store/ ← Recoil 상태
+┣ data/ ← 퀴즈 문제(JSON)
+┗ test/ ← 테스트 설정
+
+
+## ✍️ 개발자
+송현정 | GitHub: [songhyunjung](https://github.com/songhyunjung)
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
