@@ -46,16 +46,19 @@ export default function Quiz() {
   }, []);
 
   return (
-  <div className="max-w-xl mx-auto p-4">
-    <ProgressBar current={currentIndex + 1} total={questions.length} />
-    <QuestionCard
-      question={currentQuestion.question}
-      options={currentQuestion.options}
-      selected={selected}
-      onSelect={handleAnswer}
-      answer={currentQuestion.answer}
-    />
+  <div className="flex items-center justify-center min-h-screen bg-gray-50 px-4">
+    <div className="w-full max-w-xl p-4 bg-white rounded-xl shadow-lg">
+      <ProgressBar current={currentIndex + 1} total={questions.length} />
+      <QuestionCard
+        question={currentQuestion.question}
+        options={currentQuestion.options}
+        selected={selected}
+        onSelect={handleAnswer}
+        answer={currentQuestion.answer}
+      />
+    </div>
   </div>
 );
+
 
 }
