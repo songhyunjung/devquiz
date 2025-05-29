@@ -23,10 +23,15 @@
 
 ## 📂 프로젝트 구조
 src/
+
 ┣ pages/ ← Home, Quiz, Result
+
 ┣ components/ ← QuestionCard, ProgressBar
+
 ┣ store/ ← Recoil 상태
+
 ┣ data/ ← 퀴즈 문제(JSON)
+
 ┗ test/ ← 테스트 설정
 
 
