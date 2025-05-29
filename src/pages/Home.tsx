@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function Home() {
   const [name, setName] = useState('');
-  const [userName, setUserName] = useRecoilState(userNameAtom);
+  const [, setUserName] = useRecoilState(userNameAtom);
   const navigate = useNavigate();
 
   const startQuiz = () => {
