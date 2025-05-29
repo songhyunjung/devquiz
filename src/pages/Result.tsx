@@ -42,7 +42,7 @@ export default function Result() {
           🔄 다시 시작
         </button>
 
-        <h2 className="text-2xl font-semibold text-left w-full mb-4 mt-4">📝 오답 복습</h2>
+        <h2 className="text-2xl font-semibold text-left w-full mb-4 mt-4">📝 복습</h2>
         <div className="w-full space-y-4 text-left">
           {questions.map((q, i) => {
             const userChoice = selectedAnswers[i];
